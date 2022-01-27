@@ -1,35 +1,75 @@
 # Expresso
 
-## Project Overview
+# Getting Started with Create React App
 
-In this capstone project, you will build all of the routing and database logic for an internal tool for a coffee shop called Expresso.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The Expresso internal tool should allow users to:
-- Create, view, update, and delete menus
-- Create, view, update, and delete menu items
-- Create, view, update, and delete employees
-- Create, view, update, and delete employee's timesheets
+## Available Scripts
 
-You can view all of this functionality in action in the video below:
+In the project directory, you can run:
 
-<video width="100%" height="100%" controls>
-   <source src="https://s3.amazonaws.com/codecademy-content/programs/build-apis/solution-videos/Expresso480.mov" type="video/mp4">
- The markdown processor does not support the video tag.
-</video>
+### `npm start`
 
-## How To Begin
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To start, download the starting code for this project <a href="https://s3.amazonaws.com/codecademy-content/PRO/skill-paths/backend-javascript/projects/expresso/capstone-project-2-expresso-start.zip" target="_blank">here</a>. After downloading the zip folder, double click it to uncompress it and access the contents of this project.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-To view your local version of the site, open **index.html** in Google Chrome.
+### `npm test`
 
-## Implementation Details
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To complete this project, you will need to create the database tables and API routes specified below.
+### `npm run build`
 
-To test this functionality you can run the testing suite and interact with the API via the provided front-end. If you want more data to interact with in the front-end, you can run the **seed.js** file to add data to your database.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-We've provided an empty **migration.js** file for you to write table creation logic in.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 In order for the tests and provided front-end to run properly, you will need to make sure to:
 - Create and export your Express app from a root-level file called **server.js**
