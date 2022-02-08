@@ -107,7 +107,7 @@ class Menu extends Component {
   }
 
   menuItemHasAllRequiredFields(menuItem) {
-    return !!menuItem.name && !!menuItem.inventory && !!menuItem.price;
+    return !menuItem.name && !menuItem.inventory && !menuItem.price;
   }
 
   updateMenuTitle(event) {
